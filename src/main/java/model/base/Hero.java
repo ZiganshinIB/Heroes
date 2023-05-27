@@ -1,5 +1,7 @@
 package model.base;
 
+import model.weapon.base.Weapon;
+
 import java.util.HashMap;
 
 public abstract class Hero {
@@ -65,4 +67,6 @@ public abstract class Hero {
             return false;
         }
     }
+
+    public abstract void takeWeapon(Weapon weapon);
 }
