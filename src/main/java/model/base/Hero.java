@@ -10,6 +10,18 @@ public abstract class Hero {
     private String name;
     protected String caste;
 
+    @Override
+    public String toString() {
+        return "Hero{" +
+                "health=" + health +
+                ", level=" + level +
+                ", damage=" + damage +
+                ", mana=" + mana +
+                ", name='" + name + '\'' +
+                ", caste='" + caste + '\'' +
+                '}';
+    }
+
     public Hero(double health, int level, double damage, double mana, String name, String caste) {
         this.health = health;
         this.level = level;

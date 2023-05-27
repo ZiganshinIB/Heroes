@@ -1,5 +1,6 @@
 package model.base;
 
 public enum HeroType {
-    Mag
+    Mag,
+    Archer
 }
